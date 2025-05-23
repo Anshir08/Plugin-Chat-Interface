@@ -37,6 +37,13 @@ Three plugins available -
 3. Weather plugin - returns the weather of the city by fetching from weather api
 
 
+### Mesage parsing logic -
+1. The message is parsed by a splitting the message into plugin type and query.
+2. Query is either the mathematical expression or a word or a city name ### depending on the plugin type.
+3. For messages persistence, the message is stored in the local storage. and on page reload, the messages are retrieved from the local storage and parsed before updating the state.
+
+
+
 ## ○ List of plugins implemented and APIs used.
 1. Calculation plugin - calculated the expression using JavaScript Function constructor.
 
