@@ -5,7 +5,7 @@ import Interface from "./components/interface";
 function App() {
   return (
     <>
-      <h2>AI Chat Interface</h2>
+      <h2>Plugin Chat Interface</h2>
       <Interface/>
     </>
   );

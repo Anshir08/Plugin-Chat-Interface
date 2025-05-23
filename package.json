@@ -1,5 +1,5 @@
 {
-  "name": "ai-chat-interface",
+  "name": "plugin-chat-interface",
   "private": true,
   "version": "0.0.0",
   "type": "module",
